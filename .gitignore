@@ -1,0 +1,5 @@
+# virtual environments 
+venv*
+
+# dev related files
+dev*
