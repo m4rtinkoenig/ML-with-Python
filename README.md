@@ -1,6 +1,14 @@
-# ML-with-Python
-In this repository, I create projects from classical machine learning, e.g.:
-- Logistic Regression
+# ML-with-Python [WIP]
+In this repository, I create simple projects from classical machine learning, e.g.:
+- Classification
+    - Logistic Regression
+    - KNN Regression
+    - Decision Trees
+    - Random Forests
+    - Gradient Boosting
+- Clustering
+    - Autoencoders
+    - Variational Autoencoders
 
 ## Install
 Prerequisite: `python >= 3.6`
