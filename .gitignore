@@ -5,4 +5,4 @@ venv*
 dev*
 
 # data files
-data/
+data/*
