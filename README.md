@@ -3,7 +3,7 @@ In this repository, I create simple projects from classical machine learning, e.
 - Classification
     - [x] Logistic Regression
     - [x] k-NN Regression
-    - [ ] Decision Trees
+    - [x] Decision Trees
     - [ ] Random Forests
     - [ ] Gradient Boosting
 - Clustering
