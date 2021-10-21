@@ -4,5 +4,15 @@ venv*
 # dev related files
 dev*
 
-# data files
+# python related files
+*.cpython*
+
+# notebooks related files
+*-checkpoint.ipynb
+
+# data related files
 data/*
+*.csv
+
+# output related files
+*.png
