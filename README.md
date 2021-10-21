@@ -24,3 +24,30 @@ source $venv_name/bin/activate  # activate venv
 pip install --upgrade pip  # update pip
 pip install -r requirements.txt  # install required packages
 ```
+
+## Structure
+```
+.
+├── data
+│   ├── diabetes
+│   └── mnist
+├── notebooks
+│   ├── Decision Trees.ipynb
+│   ├── Gradient Boosting.ipynb
+│   ├── KNN Regression.ipynb
+│   ├── Logistig Regression.ipynb
+│   ├── Random Forest.ipynb
+│   └── Random Projections Classifier.ipynb
+├── results
+│   ├── models
+│   └── outputs
+└── src
+│   ├── __init__.py
+│   └── helper
+│       ├── __init__.py
+│       ├── helper_clean_diabetes.py
+│       ├── helper_mnist_download.py
+│       └── helper_sklearn_plotting.py
+├── README.md
+└── requirements.txt
+```

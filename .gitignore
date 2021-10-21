@@ -5,13 +5,14 @@ venv*
 dev*
 
 # python related files
-*.cpython*
+__pycache__
 
 # notebooks related files
 *-checkpoint.ipynb
 
 # data related files
 data/*
+*ubyte*
 *.csv
 
 # output related files
