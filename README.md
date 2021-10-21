@@ -41,7 +41,7 @@ pip install -r requirements.txt  # install required packages
 ├── results
 │   ├── models
 │   └── outputs
-└── src
+├── src
 │   ├── __init__.py
 │   └── helper
 │       ├── __init__.py
@@ -50,4 +50,8 @@ pip install -r requirements.txt  # install required packages
 │       └── helper_sklearn_plotting.py
 ├── README.md
 └── requirements.txt
+```
+Created with tree:
+```bash
+tree -I "$(grep -hvE '^$|^#' {~/,,$(git rev-parse --show-toplevel)/}.gitignore|sed 's:/$::'|tr \\n '\|')"
 ```
