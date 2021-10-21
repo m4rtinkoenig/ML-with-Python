@@ -5,7 +5,8 @@ In this repository, I create simple projects from classical machine learning, e.
     - [x] k-NN Regression
     - [x] Decision Trees
     - [x] Random Forests
-    - [ ] Gradient Boosting
+    - [x] Gradient Boosting
+    - [ ] Random Projections
 - Clustering
     - [ ] Autoencoders
     - [ ] Variational Autoencoders
