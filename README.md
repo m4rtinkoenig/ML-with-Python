@@ -53,5 +53,5 @@ pip install -r requirements.txt  # install required packages
 ```
 Created with tree:
 ```bash
-tree -I "$(grep -hvE '^$|^#' {~/,,$(git rev-parse --show-toplevel)/}.gitignore|sed 's:/$::'|tr \\n '\|')"
+tree --dirsfirst -I "$(grep -hvE '^$|^#' {~/,,$(git rev-parse --show-toplevel)/}.gitignore|sed 's:/$::'|tr \\n '\|')"
 ```
