@@ -6,7 +6,7 @@ In this repository, I create simple projects from classical machine learning, e.
     - [x] Decision Trees
     - [x] Random Forests
     - [x] Gradient Boosting
-    - [ ] Random Projections
+    - [x] Projected Random Forest
 - Clustering
     - [ ] Autoencoders
     - [ ] Variational Autoencoders
@@ -29,29 +29,30 @@ pip install -r requirements.txt  # install required packages
 ```
 .
 ├── data
-│   ├── diabetes
-│   └── mnist
+│   ├── diabetes
+│   └── mnist
 ├── notebooks
-│   ├── Decision Trees.ipynb
-│   ├── Gradient Boosting.ipynb
-│   ├── KNN Regression.ipynb
-│   ├── Logistig Regression.ipynb
-│   ├── Random Forest.ipynb
-│   └── Random Projections Classifier.ipynb
+│   ├── Decision Trees.ipynb
+│   ├── Gradient Boosting.ipynb
+│   ├── KNN Regression.ipynb
+│   ├── Logistig Regression.ipynb
+│   ├── Projected Random Forest.ipynb
+│   └── Random Forest.ipynb
 ├── results
-│   ├── models
-│   └── outputs
+│   ├── models
+│   └── outputs
 ├── src
-│   ├── __init__.py
-│   └── helper
-│       ├── __init__.py
-│       ├── helper_clean_diabetes.py
-│       ├── helper_mnist_download.py
-│       └── helper_sklearn_plotting.py
+│   ├── helper
+│   │   ├── __init__.py
+│   │   ├── helper_clean_diabetes.py
+│   │   ├── helper_mnist_download.py
+│   │   ├── helper_sklearn_plotting.py
+│   │   └── wrapper_random_projection.py
+│   └── __init__.py
 ├── README.md
 └── requirements.txt
 ```
-Created with tree:
+Created with `tree`
 ```bash
 tree --dirsfirst -I "$(grep -hvE '^$|^#' {~/,,$(git rev-parse --show-toplevel)/}.gitignore|sed 's:/$::'|tr \\n '\|')"
 ```
